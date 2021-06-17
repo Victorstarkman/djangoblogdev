@@ -23,10 +23,6 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'a_1ptn-soyuewm83u=jwf=w&1j9zmjcv*qb(ks_&pwm6m77v(m'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-
-ALLOWED_HOSTS = []
-
 
 # Application definition
 
@@ -69,9 +65,6 @@ TEMPLATES = [
         },
     },
 ]
-DEBUG = True
-
-ALLOWED_HOSTS = []
 
 WSGI_APPLICATION = 'django_blog.wsgi.application'
 #confifguracion de ckeditor
