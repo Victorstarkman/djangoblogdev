@@ -8,7 +8,7 @@ ALLOWED_HOSTS = ['djangoblogdeve.herokuapp.com' ]
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.posgresql_psycopg2',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'd1la88lq6diov8',
         'USER':'chvikglmmnrcxu',
         'PASSWORD':'a35bb54b2a5bd0ca24307463ecb05796bc41c3c13cc3b84a9da2cafac9f171a1',
